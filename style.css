@@ -1,0 +1,86 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+main {
+    display:flex;
+    padding: 2rem 0;
+}
+.content{
+    max-width: 90%;
+    margin: 0 auto;
+}
+@media screen and (min-width: 500px) {
+    .content{
+        max-width: 450px;
+        background-color: white;
+        border-radius: 1rem;
+        padding: 1.5rem;
+    }
+    main {
+        background-color: hsl(210, 60%, 98%);
+    }
+}
+@media screen and (min-width:1200px) {
+    .content{
+        max-width: 600px;
+    }
+}
+
+.notification {
+    background-color: darkblue;
+    color:white;
+    padding: 0.1rem 0.5rem;
+    border-radius: 0.1rem;
+}
+.read-text {
+    color:hsl(219, 12%, 42%);
+}
+/* Item */
+.item {
+    background-color:hsl(211, 68%, 94%);
+    padding: 1rem 0.5rem 0 0.5rem;
+    border-radius: 0.2rem;
+    margin-top:0.7rem
+}
+.item-unactive{
+    padding: 1rem 0.5rem 0 0.5rem;
+    border-radius: 0.2rem;
+    margin-top: 0.7rem
+}
+.item-text {
+    font-size: 0.8rem;
+    margin-left: 0.7rem;
+    color: hsl(219, 12%, 42%);
+}
+
+@media screen and (min-width: 1200px) {
+    .item-text {
+        font-size: 1rem;
+    }
+}
+.item-img {
+    max-width: 40px;
+}
+.time-text {
+    color:hsl(219, 14%, 63%);
+}
+.active-dot {
+    color:red;
+}
+.message-text {
+    font-size: 0.8rem;
+    margin-left: 0.7rem;
+    padding:0.5rem;
+    border: solid 1px hsl(219, 14%, 63%) ;
+    border-radius: 0.3rem;
+    color: hsl(219, 12%, 42%);
+}
+button {
+    background-color: white;
+    border:none;
+}
+button:hover {
+    color:black;
+    font-weight: 600;
+    
+}
